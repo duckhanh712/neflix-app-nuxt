@@ -14,6 +14,7 @@
 
       <div class="email-form">
         <input type="text" />
+        <button>Bắt đầu</button>
       </div>
     </div>
   </div>
@@ -48,18 +49,46 @@ export default {
 } */
 
 .home-page > .title {
+  font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
   width: 45%;
-  padding-top: 300px;
+  padding-top: 250px;
   margin: auto;
   text-align: center;
   color: #fff;
 }
 .home-page > .title > h2 {
-  font-size: xxx-large;
+  font-size: 4rem;
   font-weight: 700;
+  line-height: 76px;
 }
 .home-page > .title > h5 {
-  font-size: large;
-  font-weight: 600;
+  margin: 30px 0 10px 0;
+  font-size: 1.625rem;;
+}
+.home-page > .title > p {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.home-page > .email-form {
+  width: 45%;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.home-page > .email-form > input {
+  height: 70px;
+  width:  500px;
+  padding: 12px;
+  outline: none;
+}
+.home-page > .email-form > button {
+  margin-left: -3px;
+  color: #fff;
+  padding: 11px 40px 18px 40px;
+  background-color: #e50914;
+  font-weight: 500;
+  font-size: x-large;
 }
 </style>
