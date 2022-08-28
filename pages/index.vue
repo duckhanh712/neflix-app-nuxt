@@ -1,11 +1,11 @@
 <template>
-  <Tutorial/>
+  <Home/>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Home from '~/components/home/Home.vue';
 
-export default Vue.extend({
+export default({
   name: 'IndexPage'
 })
 </script>
